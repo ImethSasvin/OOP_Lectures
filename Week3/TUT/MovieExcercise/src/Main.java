@@ -7,6 +7,11 @@ public class Main {
         director.setDoB(dob);
         director.setNumberOfMovie(23);
 
+
+        Actor listActor[] = new Actor[10];
+        listActor[0] = new Actor("Jack", "Smith", new Date(15, 5, 1990));
+
+
         System.out.println(director); // Director's toString()
         // Test Movie's constructor and toString()
         Movie movie = new Movie("Avatar", "Fantasy", director);
