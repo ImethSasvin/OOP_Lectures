@@ -32,13 +32,17 @@ public class Rectangle extends GeometricObject{
         this.width = width;
     }
 
+    @Override
     public double getArea(){
         return width*length;
     }
 
+    @Override
     public double getPerimeter(){
         return ((width*2)+ (length*2));
     }
+
+    @Override
     public String getShape(){
         return "▭";
     }

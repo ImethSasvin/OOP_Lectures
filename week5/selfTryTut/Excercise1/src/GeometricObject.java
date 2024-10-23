@@ -26,16 +26,14 @@ public abstract class GeometricObject {
     public String toString(){
         return "Colour: " + colour + " Filled: " + filled;
     }
-    public abstract double getPerimeter(){
+    public abstract double getPerimeter();
 
-    }
 
-    public abstract double getArea(){
 
-    }
+    public abstract double getArea();
 
-    public abstract String getShape(){
 
-    }
+
+    public abstract String getShape();
 
 }

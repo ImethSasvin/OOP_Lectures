@@ -22,13 +22,17 @@ public class Square extends GeometricObject{
         this.side = side;
     }
 
+    @Override
     public double getArea(){
         return side*side;
     }
+
+    @Override
     public double getPerimeter(){
         return side*4;
     }
 
+    @Override
     public String getShape(){
         return "□";
     }
