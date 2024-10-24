@@ -1,8 +1,8 @@
 public class Circle extends GeometricObject{
 
     protected double radius;
-    public Circle(){
 
+    public Circle(){
     }
 
     public Circle(double radius){
